@@ -49,7 +49,9 @@ namespace ReplayManager.Controls
 
         private void btnStoreDownloadToClipboard_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Clipboard.SetText(DownloadReplayCall(matchId));
+            String downloadUrl = DownloadReplayCall(matchId);
+            if (!String.IsNullOrEmpty(downloadUrl))
+                System.Windows.Forms.Clipboard.SetText(downloadUrl);
         }
     }
 }
