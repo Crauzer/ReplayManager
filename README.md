@@ -9,4 +9,4 @@ Store a separate client which can be forward/backwards patched in order to play 
 
 Info:
 
-Replays are currently stored on Riot Servers for 30 days, League Client stops users from download Replays from an older patch and only lets users download replays from their last 20 matches.
+Replays are currently stored on Riot Servers for 20~30 days (Exact needs confirmation), League Client stops users from download Replays from an older patch and only lets users download replays from their last 20 matches.
