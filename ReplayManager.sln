@@ -1,0 +1,136 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplayManager", "ReplayManager\ReplayManager.csproj", "{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueClientAPI", "LeagueClientAPI\LeagueClientAPI.csproj", "{19BDE260-C569-49A8-B464-C4ADE5041530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Fonts", "..\MetroFramework\MetroFramework.Fonts\MetroFramework.Fonts.csproj", "{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Design", "..\MetroFramework\MetroFramework.Design\MetroFramework.Design.csproj", "{7316584D-9A16-4280-A8AB-6D45198C6E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework", "..\MetroFramework\MetroFramework\MetroFramework.csproj", "{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Esports|Any CPU = Esports|Any CPU
+		Esports|Mixed Platforms = Esports|Mixed Platforms
+		Esports|x86 = Esports|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Riot|Any CPU = Riot|Any CPU
+		Riot|Mixed Platforms = Riot|Mixed Platforms
+		Riot|x86 = Riot|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Esports|Any CPU.ActiveCfg = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Esports|Any CPU.Build.0 = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Esports|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Esports|Mixed Platforms.Build.0 = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Esports|x86.ActiveCfg = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Release|x86.ActiveCfg = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Riot|Any CPU.ActiveCfg = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Riot|Any CPU.Build.0 = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Riot|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Riot|Mixed Platforms.Build.0 = Release|Any CPU
+		{F02E77A9-B47D-41C3-9D57-8C95C17CF97D}.Riot|x86.ActiveCfg = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Esports|Any CPU.ActiveCfg = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Esports|Any CPU.Build.0 = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Esports|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Esports|Mixed Platforms.Build.0 = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Esports|x86.ActiveCfg = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Release|x86.ActiveCfg = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Riot|Any CPU.ActiveCfg = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Riot|Any CPU.Build.0 = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Riot|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Riot|Mixed Platforms.Build.0 = Release|Any CPU
+		{19BDE260-C569-49A8-B464-C4ADE5041530}.Riot|x86.ActiveCfg = Release|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|x86.ActiveCfg = Debug|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|x86.Build.0 = Debug|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Esports|Any CPU.ActiveCfg = Riot|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Esports|Mixed Platforms.ActiveCfg = Riot|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Esports|Mixed Platforms.Build.0 = Riot|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Esports|x86.ActiveCfg = Riot|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Esports|x86.Build.0 = Riot|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|Any CPU.ActiveCfg = Release|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|x86.ActiveCfg = Release|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|x86.Build.0 = Release|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Riot|Any CPU.ActiveCfg = Riot|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Riot|Mixed Platforms.ActiveCfg = Riot|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Riot|Mixed Platforms.Build.0 = Riot|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Riot|x86.ActiveCfg = Riot|x86
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Riot|x86.Build.0 = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|x86.ActiveCfg = Debug|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|x86.Build.0 = Debug|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Esports|Any CPU.ActiveCfg = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Esports|Mixed Platforms.ActiveCfg = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Esports|Mixed Platforms.Build.0 = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Esports|x86.ActiveCfg = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Esports|x86.Build.0 = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|Any CPU.ActiveCfg = Release|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|Mixed Platforms.Build.0 = Release|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|x86.ActiveCfg = Release|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|x86.Build.0 = Release|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Riot|Any CPU.ActiveCfg = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Riot|Mixed Platforms.ActiveCfg = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Riot|Mixed Platforms.Build.0 = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Riot|x86.ActiveCfg = Riot|x86
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Riot|x86.Build.0 = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|x86.ActiveCfg = Debug|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|x86.Build.0 = Debug|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Esports|Any CPU.ActiveCfg = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Esports|Mixed Platforms.ActiveCfg = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Esports|Mixed Platforms.Build.0 = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Esports|x86.ActiveCfg = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Esports|x86.Build.0 = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|Any CPU.ActiveCfg = Release|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|x86.ActiveCfg = Release|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|x86.Build.0 = Release|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Riot|Any CPU.ActiveCfg = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Riot|Mixed Platforms.ActiveCfg = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Riot|Mixed Platforms.Build.0 = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Riot|x86.ActiveCfg = Riot|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Riot|x86.Build.0 = Riot|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
